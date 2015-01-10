@@ -1,0 +1,20 @@
+Package: regexusa
+Title: Common U.S. Regular Expressions
+Version: 0.0.1
+Authors@R: c(person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role =
+    c("aut", "cre")))
+Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
+Depends:
+    R (>= 3.1.2)
+Imports:
+    regexr
+Suggests:
+    regextools,
+    testthat
+Date: 2015-01-09
+Description: A library of common regular expressions for use in the qdapRegex
+    package.
+License: GPL-2
+URL: http://trinker.github.com/regex_usa/
+BugReports: http://github.com/trinker/regex_usa/issues
+LazyData: TRUE
